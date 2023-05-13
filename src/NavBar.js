@@ -54,8 +54,6 @@ function NavBar(args) {
               </NavLink>
             </NavItem>
           </Nav>
-
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
