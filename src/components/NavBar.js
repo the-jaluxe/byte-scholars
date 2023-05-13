@@ -28,28 +28,44 @@ function NavBar(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className='me-auto' navbar>
             <NavItem>
-              <NavLink href='/components/'>Home</NavLink>
+              <NavLink className='navbar-item' href='/components/'>
+                Home
+              </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 AP Practice
               </DropdownToggle>
               <DropdownMenu right>
-                <NavbarText className='m-2'>Multiple Choice</NavbarText>
-                <DropdownItem>AP Computer Science Principles</DropdownItem>
-                <DropdownItem>AP Computer Science A</DropdownItem>
+                <NavbarText className='m-2 navbar-item'>
+                  Multiple Choice
+                </NavbarText>
+                <DropdownItem className='navbar-item'>
+                  AP Computer Science Principles
+                </DropdownItem>
+                <DropdownItem className='navbar-item'>
+                  AP Computer Science A
+                </DropdownItem>
                 <DropdownItem divider />
-                <NavbarText className='m-2'>Free Response Questions</NavbarText>
-                <DropdownItem>AP Computer Science A</DropdownItem>
+                <NavbarText className='m-2 navbar-item'>
+                  Free Response Questions
+                </NavbarText>
+                <DropdownItem className='navbar-item'>
+                  AP Computer Science A
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href='https://github.com/reactstrap/reactstrap'>
+              <NavLink
+                className='navbar-item'
+                href='https://github.com/reactstrap/reactstrap'>
                 Tutoring
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='https://github.com/reactstrap/reactstrap'>
+              <NavLink
+                className='navbar-item'
+                href='https://github.com/reactstrap/reactstrap'>
                 Self-Study Courses
               </NavLink>
             </NavItem>

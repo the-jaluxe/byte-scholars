@@ -37,6 +37,16 @@ code {
   background-color: #39A2AE;
 }
 
+.navbar-item {
+  font-family: 'Roboto';
+  color: black;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
 .particle-text {
   position: absolute;
   width: 100%;
