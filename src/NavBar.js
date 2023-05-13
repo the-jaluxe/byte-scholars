@@ -45,7 +45,12 @@ function NavBar(args) {
             </UncontrolledDropdown>
             <NavItem>
               <NavLink href='https://github.com/reactstrap/reactstrap'>
-                GitHub
+                Tutoring
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href='https://github.com/reactstrap/reactstrap'>
+                Self-Study Courses
               </NavLink>
             </NavItem>
           </Nav>
