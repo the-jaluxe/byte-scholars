@@ -81,4 +81,11 @@ code {
 
 .footer {
   background-color: #39A2AE;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer-text {
+  font-family: 'Roboto';
+  padding-top: 30px;
 }
