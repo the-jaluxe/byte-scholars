@@ -22,7 +22,7 @@ function NavBar(args) {
 
   return (
     <div>
-      <Navbar className='navbar navbar-expand-sm'>
+      <Navbar className='navbar navbar-expand-sm nav-color'>
         <NavbarBrand href='/'>Byte Scholars</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

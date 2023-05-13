@@ -642,13 +642,17 @@ function AnimatedBg() {
   };
 
   return (
-    <div class='container-particle'>
-      <Particles
-        id='tsparticles'
-        init={particlesInit}
-        options={options}
-        loaded={particlesLoaded}
-      />
+    <div>
+      <div class='container-particle'>
+        <Particles
+          id='tsparticles'
+          init={particlesInit}
+          options={options}
+          loaded={particlesLoaded}
+        />
+        <div class='particle-text'>Welcome to Byte Scholars</div>
+        <div class='particle-subtext'>Ready to Learn?</div>
+      </div>
     </div>
   );
 }
