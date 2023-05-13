@@ -28,7 +28,7 @@ function NavBar(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className='me-auto' navbar>
             <NavItem>
-              <NavLink className='navbar-item' href='/components/'>
+              <NavLink className='navbar-item' to='/home'>
                 Home
               </NavLink>
             </NavItem>
