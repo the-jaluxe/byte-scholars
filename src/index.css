@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.img-text {
+  padding-top: 150px;
+  color: white;
+  font-size: 60px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+.img-subtext {
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Montserrat';
+  font-style: italic;
+}
+
+.container-particle {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 80vh;
+  width: 100vw;
 }
