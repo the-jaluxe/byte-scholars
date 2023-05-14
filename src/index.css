@@ -106,3 +106,41 @@ code {
   font-family: 'Roboto';
   padding-top: 30px;
 }
+
+.tutoring-icon {
+  padding-top: 50px;
+}
+
+.tutoring {
+  font-family: 'Roboto';
+}
+
+.tutoring-title {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.tutoring-subtitle {
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.grey-div {
+  background-color: lightgray;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.white-div {
+  padding-bottom: 50px;
+}
+
+.carousel-container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.carousel-item {
+  
+}

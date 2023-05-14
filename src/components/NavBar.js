@@ -34,7 +34,7 @@ function NavBar(args) {
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <DropdownToggle className='navbar-item' nav caret>
                 AP Practice
               </DropdownToggle>
               <DropdownMenu right>
