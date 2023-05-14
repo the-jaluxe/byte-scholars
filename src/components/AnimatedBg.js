@@ -650,8 +650,10 @@ function AnimatedBg() {
           options={options}
           loaded={particlesLoaded}
         />
-        <div class='particle-text'>Welcome to Byte Scholars</div>
-        <div class='particle-subtext'>Ready to Learn?</div>
+        <div class='container-text'>
+          <div class='particle-text'>Welcome to Byte Scholars</div>
+          <div class='particle-subtext'>Ready to Learn?</div>
+        </div>
       </div>
     </div>
   );

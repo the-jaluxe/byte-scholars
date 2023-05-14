@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavBar(args) {
@@ -28,7 +29,7 @@ function NavBar(args) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className='me-auto' navbar>
             <NavItem>
-              <NavLink className='navbar-item' to='/home'>
+              <NavLink className='navbar-item' tag={Link} to='/'>
                 Home
               </NavLink>
             </NavItem>
@@ -41,31 +42,33 @@ function NavBar(args) {
                   Multiple Choice
                 </NavbarText>
                 <DropdownItem className='navbar-item'>
-                  AP Computer Science Principles
+                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
+                    AP Computer Science Principles
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem className='navbar-item'>
-                  AP Computer Science A
+                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
+                    AP Computer Science A
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <NavbarText className='m-2 navbar-item'>
                   Free Response Questions
                 </NavbarText>
                 <DropdownItem className='navbar-item'>
-                  AP Computer Science A
+                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
+                    AP Computer Science A
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink
-                className='navbar-item'
-                href='https://github.com/reactstrap/reactstrap'>
+              <NavLink className='navbar-item' tag={Link} to='/tutoring'>
                 Tutoring
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                className='navbar-item'
-                href='https://github.com/reactstrap/reactstrap'>
+              <NavLink className='navbar-item' tag={Link} to='/self-study'>
                 Self-Study Courses
               </NavLink>
             </NavItem>
