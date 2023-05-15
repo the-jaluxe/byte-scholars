@@ -21,10 +21,10 @@ function TutorTimeline(args) {
           <TimelineContent>
             <h1 class='tutoring-title'>Contact Us</h1>
             <p>
-              Either send an email to the address listed below or sign up for an
-              account on Wyzant to schedule your first session. Feel free to
-              include available times, subjects needed, and the session length
-              in your message.
+              Either send an email to jarrett@bytescholars.com or sign up for an
+              account on <a href='https://is.gd/9J9XDf'>Wyzant</a> to schedule
+              your first session. Feel free to include available times, subjects
+              needed, and the session length in your message.
             </p>
           </TimelineContent>
         </TimelineItem>

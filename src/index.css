@@ -156,3 +156,17 @@ code {
 .timeline {
   padding-top: 30px;
 }
+
+img {  
+  margin-top: 60px;
+  max-width: 20%;  
+  height: auto;  
+  object-fit: cover;
+  }  
+
+.about-me {
+  text-align: left;
+  padding-top: 30px;
+}
+
+
