@@ -43,6 +43,11 @@ code {
   color: white!important;
 }
 
+.dropdown-item {
+  font-family: 'Roboto';
+  color: black!important;
+}
+
 .navbar-brand {
   font-family: 'Montserrat';
   color: white!important;

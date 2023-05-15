@@ -38,26 +38,20 @@ function NavBar(args) {
                 AP Practice
               </DropdownToggle>
               <DropdownMenu right>
-                <NavbarText className='m-2 navbar-item'>
-                  Multiple Choice
-                </NavbarText>
-                <DropdownItem className='navbar-item'>
-                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
-                    AP Computer Science Principles
+                <DropdownItem className='dropdown-item'>
+                  <NavLink
+                    className='dropdown-item'
+                    tag={Link}
+                    to='/ap-practice'>
+                    Multiple Choice
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem className='navbar-item'>
-                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
-                    AP Computer Science A
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem divider />
-                <NavbarText className='m-2 navbar-item'>
-                  Free Response Questions
-                </NavbarText>
-                <DropdownItem className='navbar-item'>
-                  <NavLink className='navbar-item' tag={Link} to='/ap-practice'>
-                    AP Computer Science A
+                <DropdownItem className='dropdown-item'>
+                  <NavLink
+                    className='dropdown-item'
+                    tag={Link}
+                    to='/ap-practice'>
+                    Free Response Questions
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
