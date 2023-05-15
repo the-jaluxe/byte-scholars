@@ -35,16 +35,17 @@ code {
 }
 
 .nav-color {
-  background-color: #39A2AE;
+  background-color: #212529;
 }
 
 .navbar-item {
   font-family: 'Roboto';
-  color: black!important;
+  color: white!important;
 }
 
 .navbar-brand {
   font-family: 'Montserrat';
+  color: white!important;
   font-weight: bold;
 }
 
@@ -123,6 +124,12 @@ code {
 .tutoring-subtitle {
   font-style: italic;
   padding-top: 20px;
+  color: grey;
+}
+
+.review-subtitle {
+  font-style: italic;
+  color: grey;
 }
 
 .grey-div {
@@ -141,6 +148,6 @@ code {
   padding: 10px;
 }
 
-.carousel-item {
-  
+.timeline {
+  padding-top: 30px;
 }
