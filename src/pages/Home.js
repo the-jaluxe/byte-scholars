@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Home(args) {
   return (
-    <div>
+    <div class='home'>
       <NavBar />
       <AnimatedBg />
       <div class='container'>

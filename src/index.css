@@ -31,17 +31,35 @@ code {
   left: 0;
   height: 80vh;
   width: 100vw;
+  text-align: center;
 }
 
 .nav-color {
-  background-color: #39A2AE;
+  background-color: #212529;
+}
+
+.navbar-item {
+  font-family: 'Roboto';
+  color: white!important;
+}
+
+.dropdown-item {
+  font-family: 'Roboto';
+  color: black!important;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+  color: white!important;
+  font-weight: bold;
 }
 
 .particle-text {
+  margin-top: -150px;
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 300px;
+  top: 50%;
   left: 0;
   z-index: 1;
   color: white;
@@ -51,16 +69,21 @@ code {
 }
 
 .particle-subtext {
+  padding-top: 150px;
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 700px;
+  top: 50%;
   left: 0;
   z-index: 1;
   color: white;
   font-size: 50px;
   font-family: 'Montserrat';
   font-style: italic;
+}
+
+.home {
+  text-align: center;
 }
 
 .home-text {
@@ -89,3 +112,68 @@ code {
   font-family: 'Roboto';
   padding-top: 30px;
 }
+
+.tutoring-icon {
+  padding-top: 50px;
+}
+
+.tutoring {
+  font-family: 'Roboto';
+}
+
+.tutoring-title {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.tutoring-subtitle {
+  font-style: italic;
+  padding-top: 20px;
+  color: grey;
+}
+
+.review-subtitle {
+  font-style: italic;
+  color: grey;
+}
+
+.grey-div {
+  background-color: lightgray;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.white-div {
+  padding-bottom: 50px;
+}
+
+.carousel-container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.timeline {
+  padding-top: 30px;
+}
+
+img {  
+  margin-top: 10px;
+  max-width: 20%;  
+  height: auto;  
+  object-fit: cover;
+  }  
+
+.about-me {
+  text-align: left;
+  padding-top: 30px;
+}
+
+.coming-soon {
+  margin-left: 45px;
+}
+
+.course-container {
+  margin-top: 30px;
+}
+
