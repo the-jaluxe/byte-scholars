@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Tutoring from './pages/Tutoring';
 import SelfStudy from './pages/SelfStudy';
-import APPractice from './pages/APPractice';
-import NavBar from './components/NavBar';
+import MultipleChoice from './pages/MultipleChoice';
 
+// Add path * for 404 page
 function App() {
   return (
     <div className='App'>
@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/tutoring' element={<Tutoring />} />
           <Route path='/self-study' element={<SelfStudy />} />
-          <Route path='/ap-practice' element={<APPractice />} />
+          <Route path='/multiple-choice' element={<MultipleChoice />} />
         </Routes>
       </BrowserRouter>
     </div>

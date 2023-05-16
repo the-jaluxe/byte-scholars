@@ -42,15 +42,12 @@ function NavBar(args) {
                   <NavLink
                     className='dropdown-item'
                     tag={Link}
-                    to='/ap-practice'>
+                    to='/multiple-choice'>
                     Multiple Choice
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className='dropdown-item'>
-                  <NavLink
-                    className='dropdown-item'
-                    tag={Link}
-                    to='/ap-practice'>
+                  <NavLink className='dropdown-item' tag={Link} to='/'>
                     Free Response Questions
                   </NavLink>
                 </DropdownItem>
