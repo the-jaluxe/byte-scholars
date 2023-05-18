@@ -1,3 +1,3 @@
-var APCSPQuiz1 = [];
+var APCSPQuiz1 = [{}];
 
 export default APCSPQuiz1;
