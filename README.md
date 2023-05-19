@@ -2,6 +2,11 @@
 
 This repository contains the code for the Byte Scholars website. Currently, it is under development and will be updated once it is in production.
 
+# TODO:
+
+- Add formatting to Quiz page
+- Adjust quiz functionality to display how many answers were correct
+
 ## Available Scripts
 
 In the project directory, you can run:
