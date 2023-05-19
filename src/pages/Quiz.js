@@ -27,13 +27,15 @@ function Quiz(props) {
     </div>
   );
 }
-Quiz.propTypes = {
-  answer: React.PropTypes.string.isRequired,
-  answerOptions: React.PropTypes.array.isRequired,
-  counter: React.PropTypes.number.isRequired,
-  question: React.PropTypes.string.isRequired,
-  questionId: React.PropTypes.number.isRequired,
-  questionTotal: React.PropTypes.number.isRequired,
-  onAnswerSelected: React.PropTypes.func.isRequired,
-};
+
+// Quiz.propTypes = {
+//   answer: React.PropTypes.string.isRequired,
+//   answerOptions: React.PropTypes.array.isRequired,
+//   counter: React.PropTypes.number.isRequired,
+//   question: React.PropTypes.string.isRequired,
+//   questionId: React.PropTypes.number.isRequired,
+//   questionTotal: React.PropTypes.number.isRequired,
+//   onAnswerSelected: React.PropTypes.func.isRequired,
+// };
+
 export default Quiz;
