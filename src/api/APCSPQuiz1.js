@@ -1,18 +1,27 @@
 var APCSPQuiz1 = [
   {
-    question: 'What franchise would you rather play a game from?',
+    question:
+      'Which of the following best describes abstraction in computer science?',
     answers: [
       {
-        type: 'Microsoft',
-        content: 'Halo',
+        content:
+          'The process of representing complex data structures using simpler and more manageable ones.',
+        correct: false,
       },
       {
-        type: 'Nintendo',
-        content: 'Pokemon',
+        content:
+          'The act of converting programming code into machine-readable instructions.',
+        correct: true,
       },
       {
-        type: 'Sony',
-        content: 'Uncharted',
+        content:
+          'The method of transforming high-level programming languages into low-level machine code.',
+        correct: false,
+      },
+      {
+        content:
+          'The technique of hiding unnecessary details and focusing on essential characteristics.',
+        correct: false,
       },
     ],
   },
