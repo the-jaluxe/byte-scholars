@@ -5,11 +5,17 @@ export const quiz = {
   perQuestionScore: 5,
   questions: [
     {
-      question:
-        'Which function is used to serialize an object into a JSON string in Javascript?',
-      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
+      question: (
+        <img
+          class='test-img'
+          src={require('../assets/robot-question1.jpg')}
+          alt='Robot'
+        />
+      ),
+      choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer: 'stringify()',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
     },
     {
       question:
@@ -569,6 +575,38 @@ export const quiz = {
         'To define a set of functions and protocols for building software applications',
         'To secure a network connection',
       ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: "<img src='{robotImage1}' alt='Robot Image'/>",
+      choices: [
+        'To provide a graphical user interface for an application',
+        'To establish a connection to a database',
+        'To define a set of functions and protocols for building software applications',
+        'To secure a network connection',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/robot-question2part1.jpg')}
+            alt='Robot'
+          />
+          <img
+            class='test-img'
+            src={require('../assets/robot-question2part2.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
       correctAnswer:
         'To define a set of functions and protocols for building software applications',
