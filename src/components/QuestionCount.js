@@ -7,9 +7,9 @@ function QuestionCount(props) {
     </div>
   );
 }
-QuestionCount.propTypes = {
-  counter: React.PropTypes.number.isRequired,
-  total: React.PropTypes.number.isRequired,
-};
+// QuestionCount.propTypes = {
+//   counter: React.PropTypes.number.isRequired,
+//   total: React.PropTypes.number.isRequired,
+// };
 
 export default QuestionCount;

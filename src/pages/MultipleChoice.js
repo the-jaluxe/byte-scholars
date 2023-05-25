@@ -8,6 +8,7 @@ import {
   AccordionBody,
   Button,
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 function APPractice(args) {
   return (
@@ -36,9 +37,11 @@ function APPractice(args) {
                 <li>Time Limit: 2hrs</li>
                 <li>4 answer options for each question</li>
               </ul>
-              <Button className='test-button' color='primary'>
-                Start
-              </Button>
+              <Link to='/multiple-choice/apcsp/quiz1'>
+                <Button className='test-button' color='primary'>
+                  Start
+                </Button>
+              </Link>
             </AccordionBody>
           </AccordionItem>
           <AccordionItem>
