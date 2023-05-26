@@ -465,13 +465,6 @@ export const quiz = {
     },
     {
       question:
-        'Which of the following is an example of a database management system?',
-      choices: ['MySQL', 'Function', 'Loop', 'Encryption'],
-      type: 'MCQs',
-      correctAnswer: 'MySQL',
-    },
-    {
-      question:
         'What will be the output of the following code?\n\nint x = 5;\nint y = 3;\nSystem.out.println(x + y);',
       choices: ['35', '8', '15', 'Error'],
       type: 'MCQs',
