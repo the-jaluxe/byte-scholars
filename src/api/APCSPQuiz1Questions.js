@@ -573,18 +573,6 @@ export const quiz = {
         'To define a set of functions and protocols for building software applications',
     },
     {
-      question: "<img src='{robotImage1}' alt='Robot Image'/>",
-      choices: [
-        'To provide a graphical user interface for an application',
-        'To establish a connection to a database',
-        'To define a set of functions and protocols for building software applications',
-        'To secure a network connection',
-      ],
-      type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
-    },
-    {
       question: (
         <div>
           <img
@@ -595,6 +583,166 @@ export const quiz = {
           <img
             class='test-img'
             src={require('../assets/robot-question2part2.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question1.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'L', 'V', 'Y'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question2.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: [
+        'Input A must be true',
+        'Input A must be false',
+        'Input A can be either true or false',
+        'There is no possible value of input A that will cause the circuit to have the output true',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question3.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: [
+        'Is anyone there?',
+        'Better late than never.',
+        'Hello. Is anyone there?',
+        'Hello. Better late than never.',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question4.jpg')}
+            alt='Robot'
+          />
+          <img
+            class='test-img'
+            src={require('../assets/question4part2.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question5.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question6.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question7.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: [
+        'The number 0 is displayed',
+        'The number 6 is displayed',
+        'The number 10 is displayed',
+        'Nothing is displayed; the program results in an infinite loop',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question8.jpg')}
+            alt='Robot'
+          />
+        </div>
+      ),
+      choices: ['A', 'B', 'C', 'D'],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: (
+        <div>
+          <img
+            class='test-img'
+            src={require('../assets/question9part1.jpg')}
+            alt='Robot'
+          />
+          <img
+            class='test-img'
+            src={require('../assets/question9part2.jpg')}
             alt='Robot'
           />
         </div>
