@@ -14,8 +14,7 @@ export const quiz = {
       ),
       choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'A',
     },
     {
       question:
@@ -102,13 +101,6 @@ export const quiz = {
     },
     {
       question:
-        'What is the output of the following code snippet?\n\nvar x = 10;\nconsole.log(x++);\nconsole.log(x);',
-      choices: ['10, 10', '10, 11', '11, 10', '11, 11'],
-      type: 'MCQs',
-      correctAnswer: '10, 11',
-    },
-    {
-      question:
         'Which of the following is NOT a valid primitive data type in JavaScript?',
       choices: ['Number', 'String', 'Boolean', 'Array'],
       type: 'MCQs',
@@ -144,13 +136,6 @@ export const quiz = {
       correctAnswer: 'To provide an alternative execution path',
     },
     {
-      question:
-        'Which operator is used for concatenating strings in JavaScript?',
-      choices: ['+', '-', '*', '&'],
-      type: 'MCQs',
-      correctAnswer: '+',
-    },
-    {
       question: 'What is the primary purpose of a function in programming?',
       choices: [
         'To perform mathematical calculations',
@@ -160,31 +145,6 @@ export const quiz = {
       ],
       type: 'MCQs',
       correctAnswer: 'To group and reuse a set of instructions',
-    },
-    {
-      question:
-        'Which of the following is an example of a front-end web development framework?',
-      choices: ['React', 'Node.js', 'Express.js', 'Django'],
-      type: 'MCQs',
-      correctAnswer: 'React',
-    },
-    {
-      question: "What is the purpose of the 'return' statement in a function?",
-      choices: [
-        'To define the function',
-        'To terminate the program',
-        'To output a value from the function',
-        'To import external libraries',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'To output a value from the function',
-    },
-    {
-      question:
-        'Which of the following is NOT a valid comparison operator in JavaScript?',
-      choices: ['>=', '===', '!=', '<='],
-      type: 'MCQs',
-      correctAnswer: '===',
     },
     {
       question: 'What is the purpose of abstraction in computer science?',
@@ -227,30 +187,6 @@ export const quiz = {
       correctAnswer: 'To make decisions based on certain conditions',
     },
     {
-      question: "What does the term 'binary search' refer to?",
-      choices: [
-        'An efficient algorithm to search for an element in a sorted list',
-        'A method to convert decimal numbers to binary representation',
-        'A technique to encrypt data using binary code',
-        'A data structure that stores elements in a binary format',
-      ],
-      type: 'MCQs',
-      correctAnswer:
-        'An efficient algorithm to search for an element in a sorted list',
-    },
-    {
-      question:
-        'Which of the following is NOT a characteristic of a well-designed user interface?',
-      choices: [
-        'Consistency',
-        'Cluttered layout',
-        'Intuitive navigation',
-        'Responsive and interactive',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'Cluttered layout',
-    },
-    {
       question: 'What is the purpose of iteration in programming?',
       choices: [
         'To repeat a block of code multiple times',
@@ -267,18 +203,6 @@ export const quiz = {
       choices: ['Phishing', 'Encryption', 'HTML', 'Syntax error'],
       type: 'MCQs',
       correctAnswer: 'Phishing',
-    },
-    {
-      question:
-        "What does the term 'Big O notation' represent in computer science?",
-      choices: [
-        'The efficiency or complexity of an algorithm',
-        "The size of a computer's memory",
-        'The number of lines of code in a program',
-        'The resolution of a digital image',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'The efficiency or complexity of an algorithm',
     },
     {
       question: 'What is the purpose of data validation in programming?',
@@ -303,31 +227,6 @@ export const quiz = {
       correctAnswer: 'To repeat a block of code multiple times',
     },
     {
-      question:
-        'Which of the following is an example of a high-level programming language?',
-      choices: ['Python', 'Assembly', 'Binary', 'Machine code'],
-      type: 'MCQs',
-      correctAnswer: 'Python',
-    },
-    {
-      question: "What does the term 'iteration' refer to in programming?",
-      choices: [
-        'The process of repeating a set of instructions',
-        'The act of saving data to a file',
-        'The conversion of code from one programming language to another',
-        'The analysis of code for errors and bugs',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'The process of repeating a set of instructions',
-    },
-    {
-      question:
-        'Which of the following is an example of an event-driven programming paradigm?',
-      choices: ['JavaScript', 'SQL', 'C', 'FORTRAN'],
-      type: 'MCQs',
-      correctAnswer: 'JavaScript',
-    },
-    {
       question: 'What is the purpose of a variable in programming?',
       choices: [
         'To store and manipulate data',
@@ -337,12 +236,6 @@ export const quiz = {
       ],
       type: 'MCQs',
       correctAnswer: 'To store and manipulate data',
-    },
-    {
-      question: 'Which of the following is an example of a data structure?',
-      choices: ['Array', 'Function', 'Algorithm', 'File'],
-      type: 'MCQs',
-      correctAnswer: 'Array',
     },
     {
       question:
@@ -394,30 +287,6 @@ export const quiz = {
       correctAnswer: 'To conditionally execute a block of code',
     },
     {
-      question:
-        'Which of the following is an example of a logical operator in programming?',
-      choices: ['AND', 'LOOP', 'PRINT', 'DATABASE'],
-      type: 'MCQs',
-      correctAnswer: 'AND',
-    },
-    {
-      question: 'What is the purpose of a function in programming?',
-      choices: [
-        'To encapsulate a set of instructions and reuse them',
-        'To display text on the screen',
-        'To define data types',
-        'To perform mathematical calculations',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'To encapsulate a set of instructions and reuse them',
-    },
-    {
-      question: 'Which of the following is an example of an algorithm?',
-      choices: ['Bubble Sort', 'Variable', 'Database', 'File'],
-      type: 'MCQs',
-      correctAnswer: 'Bubble Sort',
-    },
-    {
       question: "What does the term 'debugging' mean in programming?",
       choices: [
         'The process of finding and fixing errors in code',
@@ -435,24 +304,6 @@ export const quiz = {
       correctAnswer: 'String',
     },
     {
-      question: 'What is the purpose of a for loop in programming?',
-      choices: [
-        'To repeat a block of code a specific number of times',
-        'To handle user input',
-        'To define network protocols',
-        'To perform mathematical calculations',
-      ],
-      type: 'MCQs',
-      correctAnswer: 'To repeat a block of code a specific number of times',
-    },
-    {
-      question:
-        'Which of the following is an example of a programming paradigm?',
-      choices: ['Object-Oriented Programming', 'SQL', 'HTML', 'JPEG'],
-      type: 'MCQs',
-      correctAnswer: 'Object-Oriented Programming',
-    },
-    {
       question: "What does the term 'API' stand for in programming?",
       choices: [
         'Application Programming Interface',
@@ -462,13 +313,6 @@ export const quiz = {
       ],
       type: 'MCQs',
       correctAnswer: 'Application Programming Interface',
-    },
-    {
-      question:
-        'What will be the output of the following code?\n\nint x = 5;\nint y = 3;\nSystem.out.println(x + y);',
-      choices: ['35', '8', '15', 'Error'],
-      type: 'MCQs',
-      correctAnswer: '8',
     },
     {
       question: 'Which of the following is an example of an input device?',
@@ -589,8 +433,7 @@ export const quiz = {
       ),
       choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'D',
     },
     {
       question: (
@@ -604,8 +447,7 @@ export const quiz = {
       ),
       choices: ['A', 'L', 'V', 'Y'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'V',
     },
     {
       question: (
@@ -624,8 +466,7 @@ export const quiz = {
         'There is no possible value of input A that will cause the circuit to have the output true',
       ],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'Input A must be true',
     },
     {
       question: (
@@ -644,8 +485,7 @@ export const quiz = {
         'Hello. Better late than never.',
       ],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'Better late than never.',
     },
     {
       question: (
@@ -664,8 +504,7 @@ export const quiz = {
       ),
       choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'C',
     },
     {
       question: (
@@ -679,23 +518,7 @@ export const quiz = {
       ),
       choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
-    },
-    {
-      question: (
-        <div>
-          <img
-            class='test-img'
-            src={require('../assets/question6.jpg')}
-            alt='Robot'
-          />
-        </div>
-      ),
-      choices: ['A', 'B', 'C', 'D'],
-      type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'C',
     },
     {
       question: (
@@ -715,7 +538,7 @@ export const quiz = {
       ],
       type: 'MCQs',
       correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+        'Nothing is displayed; the program results in an infinite loop',
     },
     {
       question: (
@@ -729,8 +552,7 @@ export const quiz = {
       ),
       choices: ['A', 'B', 'C', 'D'],
       type: 'MCQs',
-      correctAnswer:
-        'To define a set of functions and protocols for building software applications',
+      correctAnswer: 'B',
     },
     {
       question: (
