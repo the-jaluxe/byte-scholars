@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Button } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { quiz } from '../api/APCSPQuiz1Questions';
 import NavBar from '../components/NavBar';
+import ReactRouterPrompt from 'react-router-prompt';
 
 const APCSPQuiz1 = () => {
   const [activeQuestion, setActiveQuestion] = React.useState(0);
@@ -17,6 +18,8 @@ const APCSPQuiz1 = () => {
 
   const { questions } = quiz;
   const { question, choices, correctAnswer } = questions[activeQuestion];
+  const [modal, setModal] = useState(false);
+  const toggle = () => setModal(!modal);
 
   const onClickNext = () => {
     setSelectedAnswerIndex(null);
@@ -50,6 +53,26 @@ const APCSPQuiz1 = () => {
 
   return (
     <div>
+      <ReactRouterPrompt when={true}>
+        {({ isActive, onConfirm, onCancel }) =>
+          isActive && (
+            <Modal isOpen={true} toggle={toggle}>
+              <ModalHeader toggle={toggle}>
+                Are you sure you want to leave?
+              </ModalHeader>
+              <ModalBody>Any unsaved progress might be lost.</ModalBody>
+              <ModalFooter>
+                <Button color='primary' onClick={onConfirm}>
+                  Confirm
+                </Button>
+                <Button color='secondary' onClick={onCancel}>
+                  Cancel
+                </Button>
+              </ModalFooter>
+            </Modal>
+          )
+        }
+      </ReactRouterPrompt>
       <NavBar />
       <div className='quiz-container'>
         <h3>AP Computer Science Principles Test #1</h3>
