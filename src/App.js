@@ -1,5 +1,11 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
 import Home from './pages/Home';
 import Tutoring from './pages/Tutoring';
 import SelfStudy from './pages/SelfStudy';
@@ -10,26 +16,36 @@ import Result from './components/Result';
 import { Component } from 'react';
 import update from 'react-addons-update';
 
-class App extends Component {
+const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />,
+    },
+    {
+      path: '/tutoring',
+      element: <Tutoring />,
+    },
+    {
+      path: '/self-study',
+      element: <SelfStudy />,
+    },
+    {
+      path: '/multiple-choice',
+      element: <MultipleChoice />,
+    },
+    {
+      path: '/multiple-choice/apcsp/quiz1',
+      element: <APCSPQuiz1 />,
+    },
+  ]);
+
   // Add path * for 404 page
-  render() {
-    return (
-      <div className='App'>
-        <BrowserRouter>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/tutoring' element={<Tutoring />} />
-            <Route path='/self-study' element={<SelfStudy />} />
-            <Route path='/multiple-choice' element={<MultipleChoice />} />
-            <Route
-              path='/multiple-choice/apcsp/quiz1'
-              element={<APCSPQuiz1 />}
-            />
-          </Routes>
-        </BrowserRouter>
-      </div>
-    );
-  }
-}
+  return (
+    <div className='App'>
+      <RouterProvider router={router} />
+    </div>
+  );
+};
 
 export default App;
