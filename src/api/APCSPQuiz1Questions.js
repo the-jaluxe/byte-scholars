@@ -574,5 +574,244 @@ export const quiz = {
       correctAnswer:
         'To define a set of functions and protocols for building software applications',
     },
+    {
+      question:
+        'What is the primary purpose of an API (Application Programming Interface)?',
+      choices: [
+        'To provide a graphical user interface for an application',
+        'To establish a connection to a database',
+        'To define a set of functions and protocols for building software applications',
+        'To secure a network connection',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To define a set of functions and protocols for building software applications',
+    },
+    {
+      question: 'What is the purpose of comments in programming code?',
+      choices: [
+        'To mark the beginning and end of a code block',
+        'To define the structure of a program',
+        'To improve the performance of the code',
+        'To provide additional information and explanations for humans',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'To provide additional information and explanations for humans',
+    },
+    {
+      question:
+        'Which of the following is an example of a global challenge addressed by computer science?',
+      choices: [
+        'Increasing the efficiency of computer processors',
+        'Ensuring data privacy and security',
+        'Providing universal access to the internet',
+        'Developing advanced programming languages',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'Providing universal access to the internet',
+    },
+    {
+      question:
+        "What does the concept of 'creativity' in computer science refer to?",
+      choices: [
+        'The ability to write complex algorithms',
+        'The use of artistic design principles in programming',
+        'The development of innovative and original solutions',
+        'The creation of secure network connections',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'The development of innovative and original solutions',
+    },
+    {
+      question:
+        'Which of the following is an example of an impact of computing on society?',
+      choices: [
+        'The development of faster computer processors',
+        'The invention of the World Wide Web',
+        'The creation of programming languages',
+        'The improvement of data storage techniques',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'The invention of the World Wide Web',
+    },
+    {
+      question:
+        'Which of the following best describes the concept of abstraction in computer science?',
+      choices: [
+        'Ignoring irrelevant details and focusing on essential components of a problem',
+        'Creating graphical user interfaces for software applications',
+        'Establishing secure network connections',
+        'Processing and analyzing data in digital form',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'Ignoring irrelevant details and focusing on essential components of a problem',
+    },
+    {
+      question:
+        'Which of the following is a true statement about lossy and lossless compression algorithms?',
+      choices: [
+        'Lossy compression algorithms can reduce the file size more than lossless compression algorithms, but some data is lost in the process',
+        'Lossless compression algorithms can reduce the file size more than lossy compression algorithms, but some data is lost in the process',
+        'Lossy compression algorithms can preserve all the data in the original file, but they require more processing power than lossless compression algorithms',
+        'Lossless compression algorithms can preserve all the data in the original file, but they require more processing power than lossy compression algorithms',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'Lossy compression algorithms can reduce the file size more than lossless compression algorithms, but some data is lost in the process',
+    },
+    {
+      question:
+        'Which of the following is a benefit of using hexadecimal notation to represent binary data?',
+      choices: [
+        'It reduces the number of bits needed to store data',
+        'It makes it easier to convert data to decimal notation',
+        'It allows for more efficient transmission of data over networks',
+        'It simplifies the representation of large binary numbers',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'It simplifies the representation of large binary numbers',
+    },
+    {
+      question:
+        'Which of the following is a true statement about data privacy and security?',
+      choices: [
+        'Data privacy refers to the protection of data from unauthorized access, while data security refers to the protection of data from accidental or intentional modification or deletion',
+        'Data security refers to the protection of data from unauthorized access, while data privacy refers to the protection of data from accidental or intentional modification or deletion',
+        'Data privacy refers to the protection of data from unauthorized access or disclosure, while data security refers to the protection of data from unauthorized modification or destruction',
+        'Data security refers to the protection of data from unauthorized access or disclosure, while data privacy refers to the protection of data from unauthorized modification or destruction',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'Data privacy refers to the protection of data from unauthorized access or disclosure, while data security refers to the protection of data from unauthorized modification or destruction',
+    },
+    {
+      question:
+        'Which of the following is a true statement about parallel computing and distributed computing?',
+      choices: [
+        'Parallel computing involves multiple processors working on different parts of a single task, while distributed computing involves multiple processors working on different tasks',
+        'Distributed computing involves multiple processors working on different parts of a single task, while parallel computing involves multiple processors working on different tasks',
+        'Parallel computing involves multiple processors working on the same task at the same time, while distributed computing involves multiple processors working on different tasks at different times',
+        'Distributed computing involves multiple processors working on the same task at the same time, while parallel computing involves multiple processors working on different tasks at different times',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'Parallel computing involves multiple processors working on different parts of a single task, while distributed computing involves multiple processors working on different tasks',
+    },
+    {
+      question:
+        'Which of the following is an example of a creative expression that can be achieved through computing?',
+      choices: [
+        'A digital art piece that uses algorithms to generate patterns and colors',
+        'A scientific paper that uses data analysis to support a hypothesis',
+        'A business plan that uses spreadsheets to calculate costs and profits',
+        'A legal document that uses encryption to protect confidentiality',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'A digital art piece that uses algorithms to generate patterns and colors',
+    },
+    {
+      question:
+        'Which of the following is an example of a global impact of computing on society?',
+      choices: [
+        'A mobile app that allows users to communicate with people from different countries and cultures',
+        'A video game that allows users to create and explore virtual worlds and scenarios',
+        'A web browser that allows users to access and view information from various sources and websites',
+        'A spreadsheet that allows users to organize and manipulate data and perform calculations',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'A mobile app that allows users to communicate with people from different countries and cultures',
+    },
+    {
+      question:
+        'Which of the following is a true statement about the Internet and the World Wide Web?',
+      choices: [
+        'The Internet is a network of interconnected devices, while the World Wide Web is a collection of web pages and resources',
+        'The World Wide Web is a network of interconnected devices, while the Internet is a collection of web pages and resources',
+        'The Internet and the World Wide Web are synonymous terms that refer to the same network of devices and resources',
+        'The Internet and the World Wide Web are different networks that operate independently of each other',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'The Internet is a network of interconnected devices, while the World Wide Web is a collection of web pages and resources',
+    },
+    {
+      question:
+        'Which of the following is an example of a computing innovation that uses data to benefit society?',
+      choices: [
+        'A social media platform that allows users to share their opinions and interests',
+        'A search engine that provides relevant and accurate information to users',
+        'A facial recognition system that identifies and verifies individuals',
+        'A navigation system that provides optimal routes and traffic updates',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'A navigation system that provides optimal routes and traffic updates',
+    },
+    {
+      question:
+        'Which of the following is an example of a computing system that uses abstraction to hide complexity and details?',
+      choices: [
+        'A web browser that allows users to access and view web pages without knowing the underlying protocols and languages',
+        'A keyboard that allows users to input characters without knowing how they are encoded and transmitted',
+        'A smartphone that allows users to perform various tasks without knowing how the hardware and software components interact',
+        'All of the above',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'All of the above',
+    },
+    {
+      question:
+        'Which of the following is a true statement about the use of data collection and analysis in computing?',
+      choices: [
+        'Data collection and analysis can help solve problems, but they can also raise ethical issues and concerns',
+        'Data collection and analysis can help solve problems, but they can also limit creativity and innovation',
+        'Data collection and analysis can raise ethical issues and concerns, but they can also enhance creativity and innovation',
+        'Data collection and analysis can limit creativity and innovation, but they can also enhance ethical issues and concerns',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'Data collection and analysis can limit creativity and innovation, but they can also enhance ethical issues and concerns',
+    },
+    {
+      question:
+        'Which of the following is an example of a data visualization that can help communicate information or patterns in data?',
+      choices: [
+        'A histogram that shows the frequency distribution of a numerical variable',
+        'A table that shows the values of a categorical variable',
+        'A pie chart that shows the relative proportions of a categorical variable',
+        'All of the above',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'All of the above',
+    },
+    {
+      question:
+        'Which of the following is an example of an algorithm that uses parallel computing?',
+      choices: [
+        'An algorithm that splits a large task into smaller subtasks and assigns them to different processors',
+        'An algorithm that uses a heuristic to find an approximate solution to a hard problem',
+        'An algorithm that uses a divide-and-conquer technique to solve a problem recursively',
+        'All of the above',
+      ],
+      type: 'MCQs',
+      correctAnswer:
+        'An algorithm that splits a large task into smaller subtasks and assigns them to different processors',
+    },
+    {
+      question:
+        'Which of the following is an example of an algorithmic technique that can improve the efficiency of an algorithm?',
+      choices: [
+        'Using a loop to iterate over a list of elements',
+        'Using a variable to store a value or expression',
+        'Using a heuristic to find an approximate solution',
+        'Using a comment to explain the purpose or logic of a code segment',
+      ],
+      type: 'MCQs',
+      correctAnswer: 'Using a heuristic to find an approximate solution',
+    },
   ],
 };
