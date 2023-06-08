@@ -1,6 +1,29 @@
 # Byte Scholars
 
-This repository contains the code for the Byte Scholars website. Currently, it is under development and will be updated once it is in production.
+This repository contains the code for the Byte Scholars website. It is deployed in production and hosted on [Netlify](https://www.netlify.com/) with continuous deployment tracking the master branch in this repository. If you would like to view, it can be found at the following link: [Byte Scholars](www.bytescholars.com).
+
+## About
+
+Byte Scholars is my revamped computer science educational content website. It consolidates links for my online courses and tutoring services that I provide for computer science courses. It also features a practice test for AP Computer Science Principles to help students prepare with more quizzes to come in the future. It also has useful links to an external website that helps with code writing skills.
+
+## Tech Stack
+
+- React
+- JavaScript
+- HTML/CSS
+
+## Notable Packages
+
+- Reactstrap
+- React Router
+- React Particles
+
+## Future Features
+
+- Timer for quizzes
+- Live coding environment for FRQs
+- More quizzes for both AP Computer Science Principles and AP Computer Science A
+- Complete Python self-study course
 
 ## Available Scripts
 
