@@ -44,30 +44,6 @@ function APPractice(args) {
               </Link>
             </AccordionBody>
           </AccordionItem>
-          <AccordionItem>
-            <AccordionHeader targetId='2'>
-              AP Computer Science Principles Practice Test #2
-            </AccordionHeader>
-            <AccordionBody accordionId='2'>
-              <strong>This is the second item's accordion body.</strong>
-              You can modify any of this with custom CSS or overriding our
-              default variables. It's also worth noting that just about any HTML
-              can go within the <code>.accordion-body</code>, though the
-              transition does limit overflow.
-            </AccordionBody>
-          </AccordionItem>
-          <AccordionItem>
-            <AccordionHeader targetId='3'>
-              AP Computer Science Principles Practice Test #3
-            </AccordionHeader>
-            <AccordionBody accordionId='3'>
-              <strong>This is the third item's accordion body.</strong>
-              You can modify any of this with custom CSS or overriding our
-              default variables. It's also worth noting that just about any HTML
-              can go within the <code>.accordion-body</code>, though the
-              transition does limit overflow.
-            </AccordionBody>
-          </AccordionItem>
         </UncontrolledAccordion>
       </Container>
     </div>

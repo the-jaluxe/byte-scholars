@@ -47,7 +47,10 @@ function NavBar(args) {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className='dropdown-item'>
-                  <NavLink className='dropdown-item' tag={Link} to='/'>
+                  <NavLink
+                    className='dropdown-item'
+                    tag={Link}
+                    to='https://codingbat.com/java'>
                     Free Response Questions
                   </NavLink>
                 </DropdownItem>
