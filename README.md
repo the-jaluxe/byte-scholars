@@ -2,11 +2,6 @@
 
 This repository contains the code for the Byte Scholars website. Currently, it is under development and will be updated once it is in production.
 
-# TODO:
-
-- Option for questions with multiple answers
-- FRQ coding environments
-
 ## Available Scripts
 
 In the project directory, you can run:
