@@ -7,19 +7,10 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  CardText,
   Button,
 } from 'reactstrap';
 import NavBar from '../components/NavBar';
-import Reviews from '../components/Reviews';
-import TutorTimeline from '../components/TutorTimeline';
 import Footer from '../components/Footer';
-import {
-  faFaceSmile,
-  faGraduationCap,
-  faDollarSign,
-} from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import JavaCourse from '../assets/java-course.jpg';
 import PythonCourse from '../assets/python-course.jpg';
 

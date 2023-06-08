@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
-import Carousel from 'react-multi-carousel';
+import React from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from 'reactstrap';
 import {
-  faFaceSmile,
-  faGraduationCap,
-  faDollarSign,
   faQuoteLeft,
   faQuoteRight,
   faStar,
