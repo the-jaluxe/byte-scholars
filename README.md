@@ -1,6 +1,6 @@
 # Byte Scholars
 
-This repository contains the code for the Byte Scholars website. It is deployed in production and hosted on [Netlify](https://www.netlify.com/) with continuous deployment tracking the master branch in this repository. If you would like to view, it can be found at the following link: [Byte Scholars](www.bytescholars.com).
+This repository contains the code for the Byte Scholars website which is the successor to Accel Tutors. It is deployed in production and hosted on [Netlify](https://www.netlify.com/) with continuous deployment tracking the master branch in this repository. If you would like to view, it can be found at the following link: [Byte Scholars](www.bytescholars.com).
 
 ## About
 
